@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Roboto:wght@100;300;400&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1000px;
+    margin:0 auto;
+}
+.header{
+    padding: 32px;
+    background-color: rgb(39, 36, 36);
+}
+.Logo{
+    width: 50%;
+    display: inline-block;
+}
+.Logo a{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(230, 13, 13);
+    text-decoration: none;
+}
+.nav{
+    width: 49%;
+    display: inline-block;
+}
+.nav ul{
+    list-style: none;
+    text-align: right;
+}
+.nav li{
+    display: inline-block;
+    margin-left: 32px;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+.banner-content h1{
+    color: #2b2929;
+}
+.banner{
+    background-color: #ebebeb;
+    padding: 80px;
+}
+.banner-content{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.banner-content p{
+    margin: 8px 0 36px;
+}
+.btn{
+    background-color: grey;
+    padding: 8px 24px;
+    text-decoration:none;
+    color: white;   
+}
+.banner-feature{
+    width: 49%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.banner-feature img{
+    width: 100%;
+}
+.section{
+    background-color:rgb(39, 36, 36) ;
+    padding-bottom: 20px;
+}
+.tieu-de{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    color: #ebebeb;
+}
+.section img{
+    width: 29%;
+    margin: 0 20px;
+    border: solid #ebebeb;
+}
+.box{
+
+    background-color: #f3e9e9;
+    line-height: 40px;
+}
+.section-1 h1 p{
+    display: inline-block;
+
+}
+.section-1 p{
+    margin: 10px 10px;
+    text-align: left;
+}
+.section-1 h1{
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.box{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.anh{
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 0;
+}
+.jane{
+    padding: 120px 0;
+}
+.card{
+    width: 30%;
+    background: #cfcdc9;
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 1.5%;
+    display: inline-block;
+    text-align: left;
+}
+.feature img{
+    height: 150px;
+    overflow: hidden;
+}
+.feature-img img{
+    height: 50%;
+    width: 100%;
+}
+.description-card{
+    padding: 48px 32px;
+}
+.description-card p{
+    margin: 12px 0 24px;
+}
+.meta span{
+    font-size: 12px;
+}
+.simple-link{
+    font-size: 12px;
+    color:#1f1f1f;
+    float: right;  
+}
+.box-1{
+    background-color: #1f1f1f;
+    width: 100%;
+}
+.anh-1{
+    background-color: #1f1f1f;
+    width: 100%;
+    padding: 0 20px;
+}
+.anh-1 img{
+    width: 50%;
+    padding:0 20px;
+}
+.list .list-menu{
+    background-color: #2b2929;
+}
+.list-menu{
+     display: inline-block; 
+     width: 100%;
+     height: 200px;
+}
+.list-menu ul{
+    list-style: none;
+    text-align: center;
+}
+.list-menu li{
+    display: inline-block;
+    margin: 100px 70px;
+}
+.list-menu li a{
+    color: white;
+    text-decoration: none;
+}
+.list{
+    width: 100%;
+    background-color: #1f1f1f;
+    height: 100%;
+}
+.Marvel{
+    width: 100%;
+    background-color: #cfcdc9;
+    text-align: center;
+    font-size: 25px;
+}
